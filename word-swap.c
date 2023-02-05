@@ -29,6 +29,7 @@ void wordSwapper(char *dest, char *src){
     end_ptr = temp_ptr;
     end_ptr--;
   }
+  *(dest+c) = '\0';
   return;
 }
 
